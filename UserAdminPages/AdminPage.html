@@ -29,48 +29,56 @@
 <body>
 
   <header>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Admin Page</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Calendar</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Customers</a>
-            </li>
-          </ul>
-
-          <div class="dropdown d-block d-md-none">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="departmentDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-              Departments
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="departmentDropdown">
-              <li><a class="dropdown-item" href="#">Department#1</a></li>
-              <li><a class="dropdown-item" href="#">Department#2</a></li>
-              <li><a class="dropdown-item" href="#">Department#3</a></li>
-            </ul>
+      <div class="px-3 py-2 text-bg-dark border-bottom">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                  <img src="images/analytics.png" alt="Logo" width="40" height="42">
+                </a>                  
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi-house"></i> Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi-speedometer2"></i> Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi-table"></i> Calendar
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi-grid"></i> Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <i class="bi-people"></i> Customers
+                </a>
+              </li>
+              <li>
+              <div class="dropdown d-block d-md-none">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="departmentDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="departmentDropdown">
+                  <li><a class="dropdown-item" href="#">Department#1</a></li>
+                  <li><a class="dropdown-item" href="#">Department#2</a></li>
+                  <li><a class="dropdown-item" href="#">Department#3</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
-
+              </li>
+            </ul> 
+          </div>
         </div>
-      </div>
     </nav>
-
-
     <div class="px-3 py-2 border-bottom mb-3">
       <div class="container d-flex flex-wrap justify-content-center">
         <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
